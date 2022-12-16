@@ -2,3 +2,5 @@ name: "Security and Quality"
 
 queries:
   - uses: security-and-quality
+  - name: Use an in-repository QL pack (run queries in the my-queries directory)
+    uses: ./rule
